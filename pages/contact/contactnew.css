@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700;1,800&display=swap");
+body {
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 5%;
+
+    text-decoration: none;
+  }
+  .nav__logo {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  h2.section-title {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+    margin-bottom: 0px;
+  }
+
+  div.about__text {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  .contact__input_name {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .contact__input_email {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .contact__input_textarea {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+
+  .contact__button.button {
+    display: flex;
+    font-family: "Poppins";
+    background-color: #00b8ff;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 2px;
+    justify-content: right;
+    align-items: flex-end;
+    box-sizing: border-box;
+    font-weight: 400;
+  }
+
+  .email {
+    font-size: 14px;
+    font-family: "Poppins";
+    text-align: start;
+    margin-top: 0px;
+  }
+  .email-boja {
+    color: #00b8ff;
+  }
+
+  section.link_foother {
+    text-decoration: none;
+    font-family: "Poppins";
+    text-align: center;
+    height: var(--header-height);
+    align-items: center;
+    font-weight: var(--font-semi);
+    position: relative;
+    margin-top: 22px;
+  }
+  a.nav_linkedin {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: rgb(26, 24, 24);
+  }
+
+  a.nav_instagram {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: rgb(26, 24, 24);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .nav__logo {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  h2.section-title {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+    margin-bottom: 8px;
+  }
+  div.about__text {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  .contact__input_name {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .contact__input_email {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .contact__input_textarea {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+
+  .contact__button.button {
+    display: flex;
+    font-family: "Poppins";
+    background-color: #00b8ff;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 2px;
+    justify-content: right;
+    align-items: flex-end;
+    box-sizing: border-box;
+    font-weight: 400;
+  }
+
+  .email {
+    font-size: 14px;
+    font-family: "Poppins";
+    text-align: start;
+    margin-top: 0px;
+  }
+  .email-boja {
+    color: #00b8ff;
+  }
+
+  section.link_foother {
+    text-decoration: none;
+    font-family: "Poppins";
+    text-align: center;
+    height: var(--header-height);
+    align-items: center;
+    font-weight: var(--font-semi);
+    position: relative;
+    margin-top: 22px;
+  }
+  a.nav_linkedin {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: rgb(26, 24, 24);
+  }
+
+  a.nav_instagram {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: rgb(26, 24, 24);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .nav__logo {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  h2.section-title {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+    margin-bottom: 8px;
+  }
+  div.about__text {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  .contact__input_name {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .contact__input_email {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .contact__input_textarea {
+    position: relative;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid;
+    border-radius: 1px;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+
+  .contact__button.button {
+    display: flex;
+    font-family: "Poppins";
+    background-color: #00b8ff;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 2px;
+    justify-content: right;
+    align-items: flex-end;
+    box-sizing: border-box;
+    font-weight: 400;
+  }
+
+  .email {
+    font-size: 14px;
+    font-family: "Poppins";
+    text-align: start;
+    margin-top: 0px;
+  }
+  .email-boja {
+    color: #00b8ff;
+  }
+
+  section.link_foother {
+    text-decoration: none;
+    font-family: "Poppins";
+    text-align: center;
+    height: var(--header-height);
+    align-items: center;
+    font-weight: var(--font-semi);
+    position: relative;
+    margin-top: 22px;
+  }
+  a.nav_linkedin {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: rgb(26, 24, 24);
+  }
+
+  a.nav_instagram {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: rgb(26, 24, 24);
+  }
+}

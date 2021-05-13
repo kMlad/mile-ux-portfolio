@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700;1,800&display=swap");
+body {
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 5%;
+    text-decoration: none;
+  }
+
+  /* .project-showcase {
+    flex-direction: column;
+  }
+
+  .project-showcase-content {
+  } */
+
+  .img.hidden {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    border-radius: 2px;
+    justify-self: center;
+    padding: 0px;
+    filter: drop-shadow(4px, 4px, 4px rgba(0, 0, 0, 0.2));
+  }
+  div.slika-mob {
+  }
+}
+.home__title {
+  font-size: 34px;
+  font-weight: 800;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #0d0d0d;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+p.ux-slogan {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #0d0d0d;
+  position: relative;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 32px;
+  margin-left: 0px;
+}
+
+a.button {
+  font-family: "pOPPINS";
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 0.5px solid #0d0d0d;
+  padding: 6px 13px 6px 18px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  border-radius: 0.1rem;
+  border-color: #0d0d0d;
+  color: #0e0e0e;
+  background-color: #ffffff;
+  margin-bottom: 70px;
+  text-decoration: none;
+  margin-left: 0px;
+}
+a.a2 {
+  font-family: "pOPPINS";
+  margin-left: 10px;
+  margin-right: 0px;
+  border: 0.5px solid #0d0d0d;
+  padding: 6px 12px 6px 18px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  border-radius: 0.1rem;
+  border-color: #0d0d0d;
+  color: #0e0e0e;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+a.a3 {
+  font-family: "pOPPINS";
+  margin-left: 10px;
+  margin-right: 0px;
+  border: 0.5px solid #0d0d0d;
+  padding: 6px 14px 6px 18px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  border-radius: 0.1rem;
+  border-color: #0d0d0d;
+  color: #0e0e0e;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+
+h2.section-title {
+  font-size: 34px;
+  font-weight: 800;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #0d0d0d;
+  margin-bottom: 8px;
+  text-align: left;
+}
+img {
+  justify-self: center;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  border-radius: 2px;
+  justify-self: center;
+  margin-bottom: 2px;
+}
+h2.work__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #0d0d0d;
+  margin-bottom: 2px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+p.work__text {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #0d0d0d;
+  position: relative;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.work_button {
+  margin: auto 0;
+  /* text-align: center; */
+  /* align-items: center; */
+
+  margin-right: 0px !important;
+  justify-content: left;
+  width: 12%;
+
+  font-family: "pOPPINS";
+
+  border: 0.5px solid #0d0d0d;
+  padding: 6px 14px 6px 18px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  border-radius: 0.1rem;
+  border-color: #0d0d0d;
+  color: #0e0e0e;
+  background-color: #ffffff;
+
+  text-decoration: none;
+}
+
+section.link_foother {
+  text-decoration: none;
+  font-family: "Poppins";
+  text-align: center;
+  height: var(--header-height);
+  align-items: center;
+  font-weight: var(--font-semi);
+  position: relative;
+  margin-top: 22px;
+}
+
+a.nav_linkedin {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: rgb(26, 24, 24);
+  text-decoration: none;
+}
+
+a.nav_instagram {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: rgb(26, 24, 24);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 670px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .bd-grid {
+    min-width: 670px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-1);
+  }
+
+  section.home {
+    background: no-repeat center center / cover;
+    background-image: url("../../assets/Desktop-ok.jpg");
+    height: 500px;
+    margin-top: 50px;
+  }
+  h1.home__title {
+    margin-top: 110px;
+    font-size: 36px;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-left: 60px;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .work__subtitle {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  p.ux-slogan {
+    padding-bottom: 16px;
+    width: 40%;
+    margin-left: 60px;
+  }
+  img {
+    padding-bottom: 10px;
+    width: 70%;
+  }
+
+  p.work__text {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  a.button {
+    font-size: 12px;
+    margin-left: 60px;
+    background-color: #fbfbfb;
+  }
+  a.a2 {
+    font-size: 12px;
+    background-color: #fbfbfb;
+  }
+  a.a3 {
+    font-size: 12px;
+    background-color: #fbfbfb;
+  }
+  h2.section-title {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project-showcase {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .project-showcase-content {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+  }
+}

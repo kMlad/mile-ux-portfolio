@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700;1,800&display=swap");
+body {
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    text-decoration: none;
+  }
+  .case_study_tablet {
+    display: none;
+  }
+}
+h2.about__subtitle {
+  font-size: 34px;
+  font-weight: 800;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #0d0d0d;
+  margin-bottom: 0px;
+  margin-top: 14px;
+  margin-left: 20px;
+}
+.nav__logo {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #0d0d0d;
+
+  margin-left: 20px;
+}
+
+.img {
+  position: relative;
+  margin: auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 780px) {
+  body {
+    margin-left: 5%;
+    margin-right: -30%;
+
+    text-decoration: none;
+  }
+  .case_study_mob {
+    display: none;
+  }
+
+  .nav__logo {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  h2.about__subtitle {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+    margin-bottom: 8px;
+  }
+  img {
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: 780px) {
+    body {
+      margin-left: 5%;
+      margin-right: -30%;
+      text-decoration: none;
+    }
+    .case_study_mob {
+      display: none;
+    }
+    
+    .nav__logo {
+      font-size: 16px;
+      font-weight: 300;
+      font-family: "Poppins";
+      text-decoration: none;
+      color: #0d0d0d;
+    }
+    h2.about__subtitle {
+      font-size: 34px;
+      font-weight: 800;
+      font-family: "Poppins";
+      text-decoration: none;
+      color: #0d0d0d;
+      margin-bottom: 8px;
+    }
+    img {
+      position: relative;
+      margin: auto;
+      max-width: 100%;
+    }
+  }
+}

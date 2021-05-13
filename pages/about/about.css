@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600;1,700;1,800&display=swap");
+body {
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 5%;
+
+    text-decoration: none;
+  }
+  .nav__logo {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  h2.about__subtitle {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+    margin-bottom: 0px;
+    margin-top: 14px;
+  }
+
+  div.about__text {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+
+  .about__img {
+    justify-self: center;
+    padding-bottom: 24px;
+    max-width: 100%;
+  }
+  .about__img img {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    border-radius: 2px;
+    justify-self: center;
+  }
+  .tekst-info {
+    font-size: 16px;
+    font-family: "pOPPINS";
+  }
+  .random__section {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  h1.random {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  p.random-p {
+    font-size: 16px;
+    font-family: "pOPPINS";
+  }
+
+  .back {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+    position: relative;
+    text-align: left;
+  }
+  .v1 {
+    width: 360px;
+    height: 210px;
+  }
+  .v2 {
+    width: 360px;
+    height: 210px;
+  }
+  .v3 {
+    width: 360px;
+    height: 210px;
+  }
+  .v4 {
+    width: 360px;
+    height: 210px;
+  }
+  .v5 {
+    width: 360px;
+    height: 210px;
+  }
+  .v6 {
+    width: 360px;
+    height: 210px;
+  }
+  section.link_foother {
+    position: relative;
+    margin: auto;
+    text-decoration: none;
+    font-family: "Poppins";
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    text-decoration: none;
+  }
+  .greed {
+    grid-template: 900px;
+  }
+  .nav__logo {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  h2.about__subtitle {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+    margin-bottom: 8px;
+  }
+
+  div.about__text {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+
+  .about__img {
+    justify-self: center;
+    padding-bottom: 24px;
+    max-width: 100%;
+  }
+  .about__img img {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    border-radius: 2px;
+    justify-self: center;
+  }
+  .tekst-info {
+    font-size: 16px;
+    font-family: "pOPPINS";
+    letter-spacing: 0.3px;
+  }
+  .random__section {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  h1.random {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+  p.random-p {
+    font-size: 16px;
+    font-family: "pOPPINS";
+  }
+
+  .back {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #0d0d0d;
+    position: relative;
+    text-align: left;
+  }
+
+  .v1 {
+    width: 600px;
+    height: 400px;
+  }
+  .v2 {
+    width: 600px;
+    height: 400px;
+  }
+  .v3 {
+    width: 600px;
+    height: 400px;
+  }
+  .v4 {
+    width: 600px;
+    height: 400px;
+  }
+  .v5 {
+    width: 600px;
+    height: 400px;
+  }
+  .v6 {
+    width: 600px;
+    height: 400px;
+  }
+}
