@@ -32,7 +32,7 @@ h2.about__subtitle {
   margin-left: 20px;
 }
 
-.img {
+img {
   position: relative;
   margin: auto;
   max-width: 100%;
@@ -41,7 +41,7 @@ h2.about__subtitle {
 @media screen and (min-width: 780px) {
   body {
     margin-left: 5%;
-    margin-right: -30%;
+    /* margin-right: -30%; */
 
     text-decoration: none;
   }
@@ -70,7 +70,7 @@ h2.about__subtitle {
     max-width: 100%;
   }
 
-  @media screen and (min-width: 780px) {
+  /* @media screen and (min-width: 780px) {
     body {
       margin-left: 5%;
       margin-right: -30%;
@@ -101,4 +101,4 @@ h2.about__subtitle {
       max-width: 100%;
     }
   }
-}
+} */

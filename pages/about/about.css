@@ -9,6 +9,9 @@ body {
 
     text-decoration: none;
   }
+  .vid {
+    max-width: 100%;
+  }
   .nav__logo {
     font-size: 16px;
     font-weight: 300;
