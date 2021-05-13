@@ -1,5 +1,1 @@
-<?php
-
-include_once("./pages/portfolio/Portfolio.html")
-
-?>
+<?php header( 'Location: /pages/portfolio/Portfolio.html' ) ;  ?>
